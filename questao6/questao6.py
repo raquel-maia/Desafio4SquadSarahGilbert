@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 def jogar_forca():
     print("Descubra a linguagem de Programação...🦖")
@@ -38,3 +39,10 @@ def jogar_forca():
                 return
 
 jogar_forca()
+=======
+def name_invert():
+    name_input = input("Digite seu nome: ")
+    name_update = name_input[::-1].upper()
+    print(name_update)
+name_invert()
+>>>>>>> 26867ce844de0388acb9c686021b19d04e885363
